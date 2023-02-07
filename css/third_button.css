@@ -1,0 +1,57 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 90vh;
+    width: 99%;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
+
+.ingredients{
+    flex-grow: 2;
+    height: 100%;
+    background: #CDE990;
+}
+
+.map{
+    flex-grow: 5;
+}
+
+h2{
+    font-size: 2.5em;
+    text-align: center;
+    padding: 2%;
+}
+
+.dishlist li, .checkbox{
+    /* font-size: 2em; */
+    line-height: 1.5em;
+    text-align: center;
+    list-style-type: none;
+}
+
+.dishlist a, .checkbox{
+    text-decoration: none;
+    color: black;
+    font-family: 'Arial';
+    font-size: 1.8em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2em;
+}
+
+iframe{
+    width: 101%;
+    height: 90vh;
+}

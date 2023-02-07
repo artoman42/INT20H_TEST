@@ -1,0 +1,89 @@
+*{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+
+}
+
+body{
+    height: 90vh;
+    width: 99%;
+    background: #F5F5F5;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.header{
+    height: 10%;
+    /* width: 100%; */
+    justify-content: center;
+
+    /* padding: 1% 0; */
+    /* margin: 1% 0 */
+}
+.header > h1 {
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200%;
+    line-height: 24px;
+    text-align: center;
+
+    color: #000000;
+}
+.main{
+    height: 60%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.footer{
+    height: 20%;
+    width: 100%;
+}
+.main_link{
+    width: 13%;
+    height: 9vh;
+    border-radius: 20px;
+    border: 1px solid black;
+    text-align: center;
+    align-items: center;
+    padding: 1.5% 3%;
+
+    margin: 5%;
+
+}
+
+.main_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.main_link a{
+    text-decoration: none;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 1.2em;
+    text-align: center;
+
+    color: #000000;
+}
+
+div.main_link[color="pink"]{
+    background-color: #FFD4D4;
+}
+div.main_link[color="white"]{
+    background-color: #FFFFE8;;
+}
+div.main_link[color="green"]{
+    background-color: #CDE990;
+}
+div.main_link[color="dark_green"]{
+    background-color: #AACB73;
+}
